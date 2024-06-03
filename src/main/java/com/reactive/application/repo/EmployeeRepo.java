@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.reactive.application.entity.Employee;
 
-@Repository
 public interface EmployeeRepo extends ReactiveCrudRepository<Employee, Integer>{
 
 }
